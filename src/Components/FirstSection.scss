@@ -1,0 +1,91 @@
+#baner {
+  height: 91vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0px;
+  font-weight: 400;
+  color: black;
+  padding: 0rem 5.6rem;
+  margin-bottom: 100px;
+  
+  .container {
+    margin-right: 20%;
+  }
+
+  a {
+    font-size: 1.5rem;
+  }
+  .text-color-main {
+    color: #02aab0;
+  }
+
+  .baner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    text-align: left;
+  }
+
+  .button {
+    display: inline-block;
+    position: relative;
+    padding: 0.8rem 1.6rem;
+    font-weight: bold;
+    line-height: 1;
+    z-index: 1;
+    text-decoration: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0px;
+      height: 100%;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    }
+  }
+
+  .button1 {
+    text-decoration: none;
+    color: #02aab0;
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, #02aab0 0%, #78a6c8 100%);
+    border-image-slice: 1;
+
+    &::after {
+      background-image: linear-gradient(135deg, #02aab0 0%, #78a6c8 100%);
+    }
+    &:hover {
+      -webkit-text-fill-color: #fff;
+      text-decoration: none;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #baner {
+    .baner-title {
+      font-size: 2.5rem;
+    }
+    .button {
+      padding: 10px 21px;
+    }
+  }
+}
+@media only screen and (max-width: 1020px) {
+  #baner .baner-title {
+    font-size: 3rem;
+  }
+  .button {
+    padding: 13px 25px;
+  }
+}
