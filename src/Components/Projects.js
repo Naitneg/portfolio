@@ -10,13 +10,10 @@ function Projects() {
       <div className="projects services">
         <p>
           <h3>Robofriends</h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-          quia beatae facere rerum hic mollitia ipsum repudiandae esse est
-          cumque accusamus odit aut asperiores quam temporibus eaque, qui quo
-          quod! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-          suscipit, nulla facilis adipisci porro sit quo harum officiis, qui
-          doloremque aperiam accusantium. Reiciendis ab soluta laborum corrupti?
-          Unde, officia ipsa! <br />
+          Robofriends është një projekt që e kam perfunduar gjatë vijimit të një kursi online. Ktu shfaqen disa users ne formën e robotave ku përmes 
+          searchbox mund të filtrojm se cilin robot deshirojm ta selektojm. Besoj që permës ksaj logjike mund të ndërtoj projekte të tjera të ndryshme
+          të cilat i ndihmojnë të tjerve rreth filtrimit të të dhënave. Gjithashtu kam pervoj edhe në dizajnim e që mendoj se është njeri ndër çelsat
+          kryesor për një Website të mirë.  <br />
           <a href="https://github.com/Naitneg/robofriends" rel="noreferrer" target="_blank"  className="button button1">
             View Source
           </a>
