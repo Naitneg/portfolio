@@ -2,7 +2,7 @@ import React from "react";
 import "./FirstSection.scss";
 import { Link } from "react-router-dom";
 import "animate.css";
-import Gentian from "../assets/gentiancv.pdf";
+import Gentian from "../assets/CV - Gentian Binaku.pdf";
 function FirstPage() {
   return (
     <div id="baner">

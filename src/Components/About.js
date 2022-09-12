@@ -2,7 +2,7 @@ import React from "react";
 import "./About.scss";
 import geni from "../assets/gentian.png";
 import { Link } from "react-router-dom";
-import Gentian from "../assets/gentiancv.pdf";
+import Gentian from "../assets/CV - Gentian Binaku.pdf";
 
 function About() {
   return (
