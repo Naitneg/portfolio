@@ -1,8 +1,7 @@
 import React from "react";
 import "./Projects.scss";
-import Robofriends from "../assets/robofriends.png";
-import movieap from "../assets/movieap.png"
-
+import eComerce from "../assets/e-comerce.gif";
+import movieap from "../assets/movieap.png";
 
 function Projects() {
   return (
@@ -11,13 +10,21 @@ function Projects() {
       <div className="projects services">
         <p>
           <h3>MOVIE CINEMA</h3>
-          MOVIE APP është një projekt në grup të cilin e kam perfunduar gjatë një praktike në një kompani softwerike.
-          Përgjegjësia ime këtu ka qenë e gjith pjesa e Back-end , gjithashtu edhe disa pjesë në Front. Teknologjitë të 
-          cilat i kam përdorur në këtë projekt janë React në Front-end, kurse NodeJs dhe ExpressJs në Back-end. Gjithashtu 
-          databaza është e krijuar nga unë në softwerin PostgreSQL. Në këtë projekt bëhet fjal për rezervimin e biletave 
-          të filmave në një kinema, edhe pse si projekt nuk është i përfunduar, ideja dhe funksionaliteti janë implementuar 
-          që të tregohet puna ime si Full-Stack Developer.  <br />
-          <a href="https://github.com/Naitneg" rel="noreferrer" target="_blank"  className="button button1">
+          Movie App is a group project that I completed during an internship at
+          a software company. My responsibility here has been the entire
+          Back-end part, also some parts in the Front. The technologies I used
+          in this project are React in the Front-end, and NodeJs and ExpressJs
+          in the Back-end. The database was created by me in PostgreSQL
+          software. In this project it is about booking movie tickets in a
+          cinema, although as a project it is not established,the idea and
+          functionality have been implemented to show my work as a Full-Stack
+          Developer. <br />
+          <a
+            href="https://github.com/GzimAsani/Movie-theater-app-API"
+            rel="noreferrer"
+            target="_blank"
+            className="button button1"
+          >
             View Source
           </a>
         </p>
@@ -25,18 +32,31 @@ function Projects() {
       </div>
       <div className="projects services">
         <p>
-          <h3>Robofriends</h3>
-          Robofriends është një projekt që e kam perfunduar gjatë vijimit të një kursi online. Ktu shfaqen disa users ne formën e robotave ku përmes 
-          searchbox mund të filtrojm se cilin robot deshirojm ta selektojm. Besoj që permës ksaj logjike mund të ndërtoj projekte të tjera të ndryshme
-          të cilat i ndihmojnë të tjerve rreth filtrimit të të dhënave. Gjithashtu kam pervoj edhe në dizajnim e që mendoj se është njeri ndër çelsat
-          kryesor për një Website të mirë.  <br />
-          <a href="https://github.com/Naitneg/robofriends" rel="noreferrer" target="_blank"  className="button button1">
+          <h3>E-Commerce</h3>
+          This e-commerce web application I have created during an online
+          course. The purpose of this web app is to provide an easy and
+          convenient platform for customers to purchase products online. The web
+          application has a user-friendly interface and is accessible from any
+          device with an internet connection. The customers can browse through a
+          wide range of products, view product details, and add them to their
+          shopping cart. They can also manage their shopping cart, proceed to
+          checkout and make payments securely through the integrated payment
+          gateway. In conclusion, this e-commerce web app provides a hassle-free
+          shopping experience for customers and helps store owners grow their
+          business by providing a platform to sell their products online. Thank
+          you for your time, and I would be happy to answer any questions you
+          may have. <br />
+          <a
+            href="https://github.com/Naitneg/e-commerce"
+            rel="noreferrer"
+            target="_blank"
+            className="button button1"
+          >
             View Source
           </a>
         </p>
-        <img src={Robofriends} alt="" />
+        <img src={eComerce} alt="" />
       </div>
-      
     </div>
   );
 }

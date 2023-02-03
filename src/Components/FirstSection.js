@@ -2,7 +2,7 @@ import React from "react";
 import "./FirstSection.scss";
 import { Link } from "react-router-dom";
 import "animate.css";
-import Gentian from "../assets/CV - Gentian Binaku.pdf";
+import Gentian from "../assets/CV - Gentian Binaku react application.pdf";
 function FirstPage() {
   return (
     <div id="baner">
@@ -10,7 +10,8 @@ function FirstPage() {
         <h1 className="baner-title animate__animated animate__jackInTheBox">
           Hi, my name is <span className="text-color-main">Gentian Binaku</span>
           <br />
-          I'm the New Developer.
+          I'm One of The Bests,
+          <br /> Developers of course.
         </h1>
         <p className="butoni">
           <Link
