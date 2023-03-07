@@ -23,9 +23,8 @@ function About() {
           one of the studios in my city. Then as an IT help in a supermarket,
           and holding on to a beginner web developer. My hobby is different
           video games because I have learned a lot from them, they also make me
-          feel good. For the end, even though I'm new as a Developer I believe
-          I'm motivated enough to learn new technologies, and join the team for
-          a better future.!! <br />
+          feel good. For the end I'm motivated enough to learn new technologies,
+          and join the team for a better future.!! <br />
           <Link to={Gentian} target="_blank" className="button button1">
             View Resume
           </Link>
