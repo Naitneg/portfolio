@@ -10,8 +10,7 @@ function FirstPage() {
         <h1 className="baner-title animate__animated animate__jackInTheBox">
           Hi, my name is <span className="text-color-main">Gentian Binaku</span>
           <br />
-          I'm One of The Bests,
-          <br /> Developers of course.
+          {`I'm a Web Developer (ReactJS)`}
         </h1>
         <p className="butoni">
           <Link
